@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IFilm } from './../../models/ifilm'
 
 @Component({
   selector: 'app-films',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./films.component.scss']
 })
 export class FilmsComponent {
-  public accionFilms = [
+  public accionFilms: IFilm[] = [
     {
       title:"El ejercito de los muertos",
       img:"../../../assets/images/Accion/ejercitomuertos.jpg"

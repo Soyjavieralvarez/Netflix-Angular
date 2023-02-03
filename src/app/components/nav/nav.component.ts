@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent {
-
+  public navFilms = [
+    {
+      writer:"Escrita y dirigida por Damien Challeze",
+      title:"Babylon",
+      img:"../../../assets/images/Babylon/babylon.jpg",
+    }
+  ]
 }

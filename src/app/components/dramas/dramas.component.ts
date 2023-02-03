@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IFilm } from './../../models/ifilm'
 
 @Component({
   selector: 'app-dramas',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./dramas.component.scss']
 })
 export class DramasComponent {
-  public dramasFilms = [
+  public dramasFilms: IFilm[] = [
     {
       title:"1917",
       img:"../../../assets/images/Drama/1917.webp",
