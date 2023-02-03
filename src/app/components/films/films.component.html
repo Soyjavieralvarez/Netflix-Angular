@@ -1,0 +1,10 @@
+<div class="accion_h2">
+    <h2>Películas de acción</h2>
+</div>
+
+<div class="accion_films">
+    <div class="accion" *ngFor="let films of accionFilms">
+    <p class="accion_p">{{films.title}}</p>
+    <img class="accion_img" src="{{films.img}}" alt="">
+    </div>
+    </div>

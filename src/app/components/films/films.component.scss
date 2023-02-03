@@ -1,0 +1,33 @@
+.accion_h2{
+    color:white;
+    padding:1rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.accion_films{
+    // border: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.accion{
+    // border: solid 1px red;
+    padding:10px;
+    margin:1rem;
+}
+
+.accion_p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.accion_img{
+    width: 25vh;
+}
