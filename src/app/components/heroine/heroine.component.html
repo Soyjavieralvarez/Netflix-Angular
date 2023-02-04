@@ -1,8 +1,8 @@
 <div class="better_films">
-<div class="better" *ngFor="let films of betterFilms">
-    <h2 class="top">{{films.top}}</h2>
-<p class="better_p">{{films.title}}</p>
-<img class="better_img" src="{{films.img}}" alt="">
+  <div class="better" *ngFor="let films of betterFilms" [ngClass]="films.top < 6 ? 'top5' : 'top10' ">
+    <div class="top">
+        <h2>{{ films.top }}</h2>
+        </div>
+    <img class="better_img" src="{{ films.img }}" alt="" />
+  </div>
 </div>
-</div>
-
