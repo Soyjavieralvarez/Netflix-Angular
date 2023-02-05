@@ -18,10 +18,11 @@
 .top{
     width:10vh;
     // border: solid 1px white;
-    color:white;
     font-size: 5rem;
 
     & h2{
+    
+       -webkit-text-stroke: 1px white;
         padding:0;
         font-size: 8rem;
         text-align: center;

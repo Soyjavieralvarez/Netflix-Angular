@@ -1,5 +1,9 @@
 <app-nav></app-nav>
 <app-heroine></app-heroine>
-<app-films></app-films>
-<app-comedy></app-comedy>
-<app-dramas></app-dramas>
+<h2 class="title">Comedia</h2>
+<app-films [films]="comedyFilms"></app-films>
+<h2 class="title">Drama</h2>
+<app-films [films]="dramasFilms"></app-films>
+<h2 class="title">Acción</h2>
+<app-films [films]="accionFilms"></app-films>
+
