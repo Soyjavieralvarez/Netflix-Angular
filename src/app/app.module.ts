@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComedyComponent } from './components/comedy/comedy.component';
-import { DramasComponent } from './components/dramas/dramas.component';
 import { HeroineComponent } from './components/heroine/heroine.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FilmsComponent } from './components/films/films.component';
@@ -12,8 +10,6 @@ import { FilmsComponent } from './components/films/films.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ComedyComponent,
-    DramasComponent,
     HeroineComponent,
     NavComponent,
     FilmsComponent

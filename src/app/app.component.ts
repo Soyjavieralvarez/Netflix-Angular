@@ -164,6 +164,61 @@ export class AppComponent {
         img:"../../../assets/images/Accion/worldwarz.webp",
       },
     ]
+
+    public scifiFilms: IFilm[] = [
+      {
+        title:"El 6º día",
+        img:"../../../assets/images/Sci-fi/6dia.webp",
+      },
+      {
+        title:"12 monos",
+        img:"../../../assets/images/Sci-fi/12monos.webp",
+      },
+      {
+        title:"After Earth",
+        img:"../../../assets/images/Sci-fi/afterearth.webp"
+      },
+      {
+        title:"The Cloverfield Paradox",
+        img:"../../../assets/images/Sci-fi/colverparadox.jpg",
+      },
+      {
+        title:"Core",
+        img:"../../../assets/images/Sci-fi/core.webp",
+      },
+      {
+        title:"Depp Impact",
+        img:"../../../assets/images/Sci-fi/deepimpact.webp",
+      },
+      {
+        title:"Doom",
+        img:"../../../assets/images/Sci-fi/doom.webp",
+      },
+      {
+        title:"Gits",
+        img:"../../../assets/images/Sci-fi/gits.webp",
+      },
+      {
+        title:"Jumper",
+        img:"../../../assets/images/Sci-fi/jumper.webp",
+      },
+      {
+        title:"Passengers",
+        img:"../../../assets/images/Sci-fi/passengers.webp",
+      },
+      {
+        title:"Star Trek",
+        img:"../../../assets/images/Sci-fi/startrek.webp",
+      },
+      {
+        title:"Transformers",
+        img:"../../../assets/images/Sci-fi/transformers.webp",
+      },
+      {
+        title:"Watchmen",
+        img:"../../../assets/images/Sci-fi/watchmen.webp",
+      },
+    ]
   }
 
 
